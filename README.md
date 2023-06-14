@@ -20,7 +20,7 @@ The transformation from images to vectors uses multi layer Convolutional Neural 
 
 
 <p align="center">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_05_1.png" width="350" title="Example 1">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_05.png" width="350" title="Example 1">
   <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_05_2.png" width="350" title="Example 2">
 </p>
 
