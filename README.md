@@ -18,6 +18,21 @@ The transformation from images to vectors uses multi layer Convolutional Neural 
 
 ## Visualization
 
+<p align="center">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/Low_similarity.png" width="350" title="Example 1">
+</p>
+
+<p align="center">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/resnet18_1.png" width="350" title="Example 1">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/resnet18_2.png" width="350" title="Example 2">
+</p>
+
+<p align="center">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/resnet50_1.png" width="350" title="Example 1">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/resnet50_2.png" width="350" title="Example 2">
+</p>
+
+
 
 <p align="center">
   <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_05.png" width="350" title="Example 1">
