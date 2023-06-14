@@ -23,13 +23,13 @@ The transformation from images to vectors uses multi layer Convolutional Neural 
 </p>
 
 <p align="center">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/resnet18_1.png" width="350" title="Example 1">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/resnet18_2.png" width="350" title="Example 2">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/Resnet18_1.png" width="350" title="Example 1">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/Resnet18_2.png" width="350" title="Example 2">
 </p>
 
 <p align="center">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/resnet50_1.png" width="350" title="Example 1">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/resnet50_2.png" width="350" title="Example 2">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/Resnet50_1.png" width="350" title="Example 1">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/Resnet50_2.png" width="350" title="Example 2">
 </p>
 
 
