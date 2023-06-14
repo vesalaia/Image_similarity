@@ -59,19 +59,19 @@ The transformation from images to vectors uses multi layer Convolutional Neural 
 </p>
 
 <p align="center">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/scatter_plot_resnet18.png" width="350" title="Example 9">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/scatter_plot_resnet18.png" width="500" title="Example 9">
 </p>
 
 <p align="center">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/scatter_plot_resnet50.png" width="350" title="Example 9">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/scatter_plot_resnet50.png" width="500" title="Example 9">
 </p>
 
 <p align="center">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/search_image_resnet18.png" width="350" title="Example 9">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/search_image_resnet18.png" width="600" title="Example 9">
 </p>
 
 <p align="center">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/search_image_resnet50.png" width="350" title="Example 10">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/search_image_resnet50.png" width="600" title="Example 10">
 </p>
 
 ## Conclusions
