@@ -20,7 +20,27 @@ The transformation from images to vectors uses multi layer Convolutional Neural 
 
 
 <p align="center">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_1.png" width="350" title="Example 1">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_05_1.png" width="350" title="Example 1">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_05_2.png" width="350" title="Example 2">
+</p>
+
+<p align="center">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_06_1.png" width="350" title="Example 3">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_06_2.png" width="350" title="Example 4">
+</p>
+
+<p align="center">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_07_1.png" width="350" title="Example 5">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_07_2.png" width="350" title="Example 6">
+</p>
+
+<p align="center">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_08_1.png" width="350" title="Example 7">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_08_2.png" width="350" title="Example 8">
+</p>
+<p align="center">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_09_1.png" width="350" title="Example 9">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_09_2.png" width="350" title="Example 10">
 </p>
 
 ## Conclusions
