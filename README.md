@@ -29,57 +29,58 @@ Figure 1 shows an example where the cosine similarity score is close to 0.5, and
   <br>
   Figure 1.
 </p>
-Figure 2 & 3 covers two sets of images, the 5 images on the left is an example that depicts an image and 4-most similar images from the dataset. Similarity metrics close to 0.95 demonstrate that three other images are almost the same and the metric for the 4th image indicates it is already quite diiferent. The five images on the right shows an example where similar images are not identified, however, the metric value of 0.87 seems to inidcate only some of the patterns in the picture are similar, but the actail pictures are clearly different. Resnet-18 is used for Figure 2 and Resnet-50 is used for Figure 3, where same kind of patterns are visible.  
+Figure 2 and 3 covers two sets of images, the 5 images on the left is an example that depicts an image and 4-most similar images from the dataset. Similarity metrics close to 0.95 demonstrate that three other images are almost the same and the metric for the 4th image indicates it is already quite diiferent. The five images on the right shows an example where similar images are not identified, however, the metric value of 0.87 seems to inidcate only some of the patterns in the picture are similar, but the actail pictures are clearly different. Resnet-18 is used for Figure 2 and Resnet-50 is used for Figure 3, where same kind of patterns are visible.  
 <p align="center">
   <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/Resnet18_1.png" width="350" title="Picture 2">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/Resnet18_2.png" width="350" title="Picture 3">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/Resnet18_2.png" width="350" title="Picture 2">
 <br>
+ Figure 2.
 </p>
 
 <p align="center">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/Resnet50_1.png" width="350" title="Picture 4">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/Resnet50_2.png" width="350" title="Picture 5">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/Resnet50_1.png" width="350" title="Picture 3">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/Resnet50_2.png" width="350" title="Picture 3">
 <br>
-  Example 4&5
+  Figure 3.
 </p>
 
-
+Figures 4, 5, 6, and 7 are used to demonstrate how the similarity between images changes as the cosine similarity increases. In case where similarity score is close to 0.5 the difference is clear and no common patterns are visible. When the similarity score increates first some common patterns and shapes are surfacing and later when score increases further the images are starting to look more and more similar.
 
 <p align="center">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_05.png" width="350" title="Picture 6">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_05_2.png" width="350" title="Picture 7">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_05.png" width="350" title="Figure 4">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_05_2.png" width="350" title="Figure 4">
   <br>
-  Example 6&7
+ Figure 4.
 
 </p>
 
 <p align="center">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_06_1.png" width="350" title="Picture 8">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_06_2.png" width="350" title="Picture 9">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_06_1.png" width="350" title="Figure 5">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_06_2.png" width="350" title="Figure 5">
   <br>
-  Example 8&9
+  Figure 5.
 
 </p>
 
 <p align="center">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_07_1.png" width="350" title="Picture 10">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_07_2.png" width="350" title="Picture 11">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_07_1.png" width="350" title="Figure 6">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_07_2.png" width="350" title="Figure 6">
   <br>
-  Example 10&11
+  Figure 6.
 
 </p>
 
 <p align="center">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_08_1.png" width="350" title="Picture 12">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_08_2.png" width="350" title="Picture 13">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_08_1.png" width="350" title="Figure 7">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_08_2.png" width="350" title="Figure 7">
 <br>
-  Example 12&13
+  Figure 7
 </p>
 <p align="center">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_09_1.png" width="350" title="Picture 14">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_09_2.png" width="350" title="Picture 15">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_09_1.png" width="350" title="Figure 8">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_09_2.png" width="350" title="Figure 8">
 <br>
-  Example 14&15
+  Figure 8.
 </p>
 
 <p align="center">
