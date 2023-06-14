@@ -8,7 +8,7 @@
 This is part of the Digital Humanities Hackathon 2023 (DHH23) project. The theme of our group was Enlightening Illustrations: Analyzing the Role of Images in Early Modern Scientific Publications. This is a continuous of the project to explore and analyse how the computer vision tools could be used to identify similar images among the dataset. This information would be essential for understanding how the pictures where re-used during the 18th century. 
 
 The illustrations are part of the the Eighteenth-Century Collections On-line (ECCO) database. ECCO database consists of page images and texts of material
-printed between 1700 and 1800 [Greg2021]. ECCO database covers approximately 32 million pages representing almost 185 thousand different book titles. Our dataset is a subset of ECCO and we have approximately 100K pages from scientific books representing almost 5000 different book titles. In this project the focus is on botanical subset of the illustrations and dataset consist of roughly 13K images.  
+printed between 1700 and 1800 [Greg2021]. ECCO database covers approximately 32 million pages representing almost 185 thousand different book titles. The illustration dataset covers approximately 100K pages from ECCO scientific books representing almost 5000 different book titles. In this project the focus is on botanical subset of the illustrations and dataset consist of roughly 13K images.  
 
 ## Approach
 
