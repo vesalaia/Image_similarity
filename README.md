@@ -21,6 +21,7 @@ The transformation from images to vectors uses multi layer Convolutional Neural 
 
 <p align="center">
   <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/Low_similarity.png" alt="Example 1" width="350" title="Example 1">
+  <br>
   Example 1
 </p>
 
