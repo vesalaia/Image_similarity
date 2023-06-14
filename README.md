@@ -9,6 +9,10 @@ This is part of the Digital Humanities Hackathon 2023 (DHH23) project. The theme
 
 ## Approach
 
+The basic idea is to use deep learning methods to convert images to vectors and use similarity metrics to identify other similar images among the dataset. Cosine similarity is is used to measure of the similarity between two image feature vectors. It measures the angle between the vectors, if the value is close to one vectors are similar and if it is close to zero then there is no similarity. Cosine similarity is often used to compare the similarity between documents and images.
+
+
+
 ## Visualization
 
 ## Conclusions
