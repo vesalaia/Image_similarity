@@ -17,6 +17,8 @@ The basic idea is to use deep learning methods to convert images to vectors and 
 The transformation from images to vectors uses multi layer Convolutional Neural Networks (CNN) based classification models, Resnet in this case. This approach enables layers close to the input to learn low-level features (e.g., lines or edges) and layers deeper in the model to learn more abstract features (e.g., shapes or specific objects). The CNN architecture consists of several layers (e.g., 3 × 3 convolution and related activation functions) followed by pooling (e.g., max pooling). This part of the CNN is called feature extraction. Then, two fully connected layers follow feature extraction, and the final layer is a softmax layer to predict the class label for the image [Good2016]. We are only interested in feature map/feature vectors,  therefore, the fully connected layers are omitted and resulting feature vectors are used for calculating the similaity between differet images. Resnet is an CNN architecture that uses skip layers (a.k.a. shortcut), where data bypasses one or more layers and is fed deeper into the network, enabling training in very deep networks [Xie2017]. For this project I use Resnet-18 (18 layers) and Resnet-50 (50 layers), the size of feature vectors are 512 and 2048, respectively.
 
 ## Visualization
+
+
 <p align="center">
   <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_1.png" width="350" title="Example 1">
 </p>
