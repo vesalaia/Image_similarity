@@ -29,12 +29,11 @@ Figure 1 shows an example where the cosine similarity score is close to 0.5, and
   <br>
   Figure 1.
 </p>
-Figures 2 and 3  
+Figure 2 & 3 covers two sets of images, the 5 images on the left is an example that depicts an image and 4-most similar images from the dataset. Similarity metrics close to 0.95 demonstrate that three other images are almost the same and the metric for the 4th image indicates it is already quite diiferent. The five images on the right shows an example where similar images are not identified, however, the metric value of 0.87 seems to inidcate only some of the patterns in the picture are similar, but the actail pictures are clearly different. Resnet-18 is used for Figure 2 and Resnet-50 is used for Figure 3, where same kind of patterns are visible.  
 <p align="center">
   <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/Resnet18_1.png" width="350" title="Picture 2">
   <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/Resnet18_2.png" width="350" title="Picture 3">
 <br>
-  Figure 2 & 3 covers two sets of images, the 5 images on the left is an example that depicts an image and 4-most similar images from the dataset. Similarity metrics close to 0.95 demonstrate that three other images are almost the same and the metric for the 4th image indicates it is already quite diiferent. The five images on the right shows an example where similar images are not identified, however, the metric value of 0.87 seems to inidcate only some of the patterns in the picture are similar, but the actail pictures are clearly different. Resnet-18 is used for Figure 2 and Resnet-50 is used for Figure 3, where same kind of patterns are visible.  
 </p>
 
 <p align="center">
