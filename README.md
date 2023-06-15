@@ -1,4 +1,5 @@
-# Image similarity for the 18th-century illustrations
+# Image similarity for the 18th-century illustrations 
+## Ari Vesalainen
 
 ## Introduction
 
@@ -163,6 +164,7 @@ By setting the threshold at a level of 0.94 or higher, the results are relativel
     <td>5103</td>
   </tr>
 </table>
+
 ## References
 
 [Korz2020] Maciej D. Korzec. Blog post. https://towardsdatascience.com/recommending-similar-images-using-pytorch-da019282770c
@@ -175,4 +177,9 @@ By setting the threshold at a level of 0.94 or higher, the results are relativel
 and Pattern Recognition. 2017.
 
 ## Data
+
 Early modern illustrations can be found from [Data repository](https://github.com/dhh23/early_modern_data)
+
+## Acknowledment
+
+The original text has been written by Ari Vesalainen and ChatGPT has been used improve the clarity.
