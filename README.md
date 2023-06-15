@@ -22,16 +22,17 @@ Our initial assumption was that Resnet-50, with its 2048-dimensional feature vec
 
 ## Visualization
 
-As discussed above the similarity is based on feature vectors and the cosine distance between these vectors. The similarity metric varies between 0.0 and 1.0, where higher value refers to more similar images. Experiments seem to indicate that expected similarity is in reality somewhere between 0.5 and 1.0. As the similarity is not an exact metric it is difficult to detect when two images are actually same and when clearly different. Example show that value of 0.948 is calculated exatly for the same picture when 0.980 is calculated clearly for different image sharing similar patterns.
+As mentioned earlier, the similarity between images is determined by comparing their feature vectors using cosine distance. The similarity metric ranges from 0.0 to 1.0, with a higher value indicating a greater similarity between images. However, experimental results suggest that the expected similarity often falls between 0.5 and 1.0. Since similarity is not an exact measurement, it becomes challenging to determine whether two images are identical or clearly different. For instance, an example demonstrates that a cosine similarity score of 0.948 can be obtained for the same picture, while a score of 0.980 can be calculated for different images that share similar patterns.
 
-Figure 1 shows an example where the cosine similarity score is close to 0.5, and as it can be seen the picture are very different.  
+Figure 1 presents an example where the cosine similarity score is approximately 0.5, and as clearly depicted, the images are quite dissimilar.
 
 <p align="center">
   <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/Low_similarity.png" width="350" title="Picture 1">
   <br>
   Figure 1.
 </p>
-Figure 2 and 3 covers two sets of images, the 5 images on the left is an example that depicts an image and 4-most similar images from the dataset. Similarity metrics close to 0.95 demonstrate that three other images are almost the same and the metric for the 4th image indicates it is already quite diiferent. The five images on the right shows an example where similar images are not identified, however, the metric value of 0.87 seems to inidcate only some of the patterns in the picture are similar, but the actail pictures are clearly different. Resnet-18 is used for Figure 2 and Resnet-50 is used for Figure 3, where same kind of patterns are visible.  
+Figure 2 and 3 depict two sets of images. In Figure 2, the left side showcases an example image along with the four most similar images from the dataset. Similarity metrics close to 0.95 indicate that three of the images are nearly identical, while the metric for the fourth image suggests it is already quite different. On the right side, five images are displayed where similar images are not identified. However, the metric value of 0.87 suggests that only some patterns in the pictures are similar, while the actual images are clearly different. Resnet-18 is used for Figure 2, and Resnet-50 is used for Figure 3, both exhibiting similar patterns.
+
 <p align="center">
   <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/Resnet18_1.png" width="350" title="Picture 2">
   <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/Resnet18_2.png" width="350" title="Picture 2">
@@ -46,7 +47,7 @@ Figure 2 and 3 covers two sets of images, the 5 images on the left is an example
   Figure 3.
 </p>
 
-Figures 4, 5, 6, and 7 are used to demonstrate how the similarity between images changes as the cosine similarity increases. In case where similarity score is close to 0.5 the difference is clear and no common patterns are visible. When the similarity score increates first some common patterns and shapes are surfacing and later when score increases further the images are starting to look more and more similar.
+Figures 4, 5, 6, and 7 serve to illustrate the changes in image similarity as the cosine similarity increases. When the similarity score is close to 0.5, the differences between images are evident, with no recognicable common patterns. As the similarity score increases, common patterns and shapes begin to emerge, and as the score continues to rise, the images appear increasingly similar.
 
 <p align="center">
   <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/similarity_05.png" width="350" title="Figure 4">
