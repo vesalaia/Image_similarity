@@ -1,4 +1,4 @@
-# Image_similarity
+# Image similarity for 18th-century illustrations
 
 ## Introduction
 
