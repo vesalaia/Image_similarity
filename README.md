@@ -25,6 +25,12 @@ All analysis and visualization code is in one Jupyter Notebook. Key parameters a
   <li>DB_DIR: folder where all data structures are stored to avoid re-calculation</li>
 </ul>
 
+The project is based on a blog post by [Korz2020], but the original code has been modified and expanded. The initial code converted all images into 256x256 pixels, following the format assumed by Resnet. However, it is now possible to calculate feature vectors on the fly, allowing for the utilization of images in their original formats. Additionally, feature vectors are stored on disk to avoid redundant vector creation when the program is rerun at a later stage.
+
+Initially, the program only supported Resnet-18, but it has since been extended to include Resnet-50. Furthermore, it would be relatively straightforward to further extend the program to support other CNN architectures.
+
+The visualization aspect has also been enhanced to provide a clearer understanding of the differences between various similarity values and the practical implications of cosine distance.
+
 ## Visualization
 
 As mentioned earlier, the similarity between images is determined by comparing their feature vectors using cosine distance. The similarity metric ranges from 0.0 to 1.0, with a higher value indicating a greater similarity between images. However, experimental results suggest that the expected similarity often falls between 0.5 and 1.0. Since similarity is not an exact measurement, it becomes challenging to determine whether two images are identical or clearly different. For instance, an example demonstrates that a cosine similarity score of 0.948 can be obtained for the same picture, while a score of 0.980 can be calculated for different images that share similar patterns.
@@ -125,10 +131,12 @@ Figure 12. Results showing the relative distance to searched image (Resnet-18)
 
 ## Conclusions
 
-The initial assumption was that Resnet-50 based model would outperfm Resnet-18 based as it captures four times more features from each image. Unfortunatelly this was not able to verify during the project. Both models produce very similar results. This can be seen for example in Figures 2 and 3 (left hand side), where the same images are among the 4-most similar images with almost identical similarity scores. However, when using close reading you could argue that the Resnet-50 is able to detect better results for less similar images as on right side of figures where the most similar image looks almost the same although it is clearly different, shape and patterns are almost the same. 
+The initial assumption was that the Resnet-50 model would outperform the Resnet-18 model since it captures four times more features from each image. However, this assumption could not be verified during the project as both models produced very similar results. This can be observed, for instance, in Figures 2 and 3 (left-hand side), where the same images are among the four most similar images with almost identical similarity scores. However, upon closer examination, it could be argued that the Resnet-50 model is better at detecting similarities in less similar images, as shown on the right-hand side of the figures, where the most similar image appears almost the same despite being clearly different—the shape and patterns are nearly identical.
 
-The work is based on blog post [Korz2020]. Original code has been changed and extended. Original code run  
-Number of common images among k-most similar images for resnet-18 and resnet-50 models
+Although the similarity scores between images are largely the same for both models, some differences can be noticed when analyzing the full dataset. When examining the four most similar images for the full dataset (Table), it was observed that in 204 cases (1.6%), both models produced exactly the same combination of images, while for 590 images (4.5%), three common images were shared, and for 2246 images (17.1%), two common images were shared. In 5008 cases (38.1%), one image was shared, and in 5103 cases (38.8%), there was no overlap in the shared images. Close reading suggests that if there is a clear similarity between images, both models are capable of detecting it. However, when the images are clearly different, there is more variation in the scores.
+
+By setting the threshold at a level of 0.94 or higher, the results are relatively consistent, and both methods are able to predict close similarity. It is important to note that cosine similarity, being based on extracted features, is not an exact measure, and a high value does not necessarily mean that the images are the same. Instead, it confirms that the images include similar elements, such as patterns and shapes.
+
 <table>
   <tr>
     <th>#images</th>
