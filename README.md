@@ -1,8 +1,5 @@
 # Image_similarity
 
-## Table of Content
-
-
 ## Introduction
 
 This sub-project is related to the Digital Humanities Hackathon 2023 (DHH23) project, specifically our group's theme of 'Enlightening Illustrations: Analyzing the Role of Images in Early Modern Scientific Publications.' The sub-project project aims to explore and analyze the use of computer vision tools to identify similar images within an illustration dataset. This information is crucial for understanding how images were reused during the 18th century.
@@ -19,6 +16,14 @@ To transform images into vectors, we utilize a multi-layer CNN-based classificat
 Resnet refers to a CNN architecture that incorporates skip layers, also known as shortcuts. These shortcuts allow data to bypass one or more layers and be fed deeper into the network, enabling training in very deep networks [Xie2017]. In this project, we utilize two variations of Resnet: Resnet-18 (18 layers) and Resnet-50 (50 layers). The size of the feature vectors extracted using Resnet-18 is 512, while Resnet-50 produces 2048-dimensional feature vectors.
 
 Our initial assumption was that Resnet-50, with its 2048-dimensional feature vectors, would be more accurate in detecting differences compared to Resnet-18, which produces 512-dimensional feature vectors. The analysis was based on similarities, and we compared the plotted results using close reading techniques.
+
+## Usage
+All analysis and visualization code is in one Jupyter Notebook. Key parameters and setting for program are:
+
+ul>
+  <li>DATA_DIR: folder for all images you want to analyze</li>
+  <li>DB_DIR: folder where all data structures are stored to avoid re-calculation</li>
+</ul>
 
 ## Visualization
 
