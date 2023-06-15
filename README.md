@@ -18,7 +18,7 @@ Resnet refers to a CNN architecture that incorporates skip layers, also known as
 Our initial assumption was that Resnet-50, with its 2048-dimensional feature vectors, would be more accurate in detecting differences compared to Resnet-18, which produces 512-dimensional feature vectors. The analysis was based on similarities, and we compared the plotted results using close reading techniques.
 
 ## Usage
-All analysis and visualization code is in one Jupyter Notebook. Key parameters and setting for program are:  [code]  (https://github.com/vesalaia/Image_similarity/blob/main/Search4SimilarImages-FeatureVector.ipynb))
+All analysis and visualization code is in one Jupyter Notebook. Key parameters and setting for program are:  [code]  (https://github.com/vesalaia/Image_similarity/blob/main/Search4SimilarImages-FeatureVector.ipynb)
 
 <ul>
   <li>DATA_DIR: folder for all images you want to analyze, copy all images to this folder prior to the analysis</li>
