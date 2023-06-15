@@ -175,4 +175,4 @@ By setting the threshold at a level of 0.94 or higher, the results are relativel
 and Pattern Recognition. 2017.
 
 ## Data
-Early modern illustrations can be found from [Data repository](https://github.com/dhh23/early_modern_data))
+Early modern illustrations can be found from [Data repository](https://github.com/dhh23/early_modern_data)
