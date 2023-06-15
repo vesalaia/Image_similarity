@@ -128,7 +128,33 @@ Figure 12. Results showing the relative distance to searched image (Resnet-18)
 The initial assumption was that Resnet-50 based model would outperfm Resnet-18 based as it captures four times more features from each image. Unfortunatelly this was not able to verify during the project. Both models produce very similar results. This can be seen for example in Figures 2 and 3 (left hand side), where the same images are among the 4-most similar images with almost identical similarity scores. However, when using close reading you could argue that the Resnet-50 is able to detect better results for less similar images as on right side of figures where the most similar image looks almost the same although it is clearly different, shape and patterns are almost the same. 
 
 The work is based on blog post [Korz2020]. Original code has been changed and extended. Original code run  
-
+Number of common images among k-most similar images for resnet-18 and resnet-50 models
+<table>
+  <tr>
+    <th>#images</th>
+    <th>Count</th>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>204</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>590</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>2246</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>5008</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>5103</td>
+  </tr>
+</table>
 ## References
 
 [Korz2020] Maciej D. Korzec. Blog post. https://towardsdatascience.com/recommending-similar-images-using-pytorch-da019282770c
