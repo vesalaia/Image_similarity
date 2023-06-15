@@ -181,4 +181,4 @@ Early modern illustrations can be found from [Data repository](https://github.co
 
 ## Acknowledment
 
-The original text has been written by Ari Vesalainen and ChatGPT has been used improve the clarity.
+The original text has been written by Ari Vesalainen and ChatGPT has been used to improve the clarity of the text.
