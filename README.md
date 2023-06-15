@@ -20,7 +20,7 @@ Our initial assumption was that Resnet-50, with its 2048-dimensional feature vec
 ## Usage
 All analysis and visualization code is in one Jupyter Notebook. Key parameters and setting for program are:
 
-ul>
+<ul>
   <li>DATA_DIR: folder for all images you want to analyze</li>
   <li>DB_DIR: folder where all data structures are stored to avoid re-calculation</li>
 </ul>
