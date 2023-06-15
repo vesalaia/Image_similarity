@@ -21,7 +21,7 @@ Our initial assumption was that Resnet-50, with its 2048-dimensional feature vec
 All analysis and visualization code is in one Jupyter Notebook. Key parameters and setting for program are:  [code]  (https://github.com/vesalaia/Image_similarity/blob/main/Search4SimilarImages-FeatureVector.ipynb))
 
 <ul>
-  <li>DATA_DIR: folder for all images you want to analyze</li>
+  <li>DATA_DIR: folder for all images you want to analyze, copy all images to this folder prior to the analysis</li>
   <li>DB_DIR: folder where all data structures are stored to avoid re-calculation</li>
 </ul>
 
@@ -125,7 +125,13 @@ Figure 12. Results showing the relative distance to searched image (Resnet-18)
 
 ## Conclusions
 
+The initial assumption was that Resnet-50 based model would outperfm Resnet-18 based as it captures four times more features from each image. Unfortunatelly this was not able to verify during the project. Both models produce very similar results. This can be seen for example in Figures 2 and 3 (left hand side), where the same images are among the 4-most similar images with almost identical similarity scores. However, when using close reading you could argue that the Resnet-50 is able to detect better results for less similar images as on right side of figures where the most similar image looks almost the same although it is clearly different, shape and patterns are almost the same. 
+
+The work is based on blog post [Korz2020]. Original code has been changed and extended. Original code run  
+
 ## References
+
+[Korz2020] Maciej D. Korzec. Blog post. https://towardsdatascience.com/recommending-similar-images-using-pytorch-da019282770c
 
 [Good2016] Ian Goodfellow, Yoshua Bengio, Aaron Courville: Deep learning. The MIT Press. 2016
 
@@ -133,7 +139,6 @@ Figure 12. Results showing the relative distance to searched image (Resnet-18)
 
 [Xie2017] Xie Saining, Girshick Ross, Dollar Piotr, Tu Zhuowen, He Kaiming. Aggregated Residual Transformations for Deep Neural Networks. Computer Vision
 and Pattern Recognition. 2017.
-
 
 ## Data
 Early modern illustrations can be found from [Data repository](https://github.com/dhh23/early_modern_data))
