@@ -1,4 +1,4 @@
-# Image similarity for 18th-century illustrations
+# Image similarity for the 18th-century illustrations
 
 ## Introduction
 
