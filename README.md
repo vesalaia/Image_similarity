@@ -86,28 +86,36 @@ Figures 4, 5, 6, and 7 serve to illustrate the changes in image similarity as th
   Figure 8.
 </p>
 
+Visualizing high-dimensional feature vectors can be challenging due to their complexity. To address this, Principal Component Analysis (PCA) is employed to transform the 512/2048-dimensional feature vectors into a two-dimensional representation while preserving crucial information. This allows for easy plotting and visualization of the results.
+
+Figures 9 and 10 showcase two examples from the complete botanical illustration dataset. One example corresponds to Resnet-18, while the other corresponds to Resnet-50. The plots illustrate the variation of different feature vectors (depicted in blue). The searched image is represented by a black point, while similar images are denoted by red points.
+
 <p align="center">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/scatter_plot_resnet18.png" width="500" title="Picture 16">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/scatter_plot_resnet18.png" width="500" title="Figure 9">
 <br>
- 2-dimensional graph of feature vectors using Resnet-18
+Figure 9. 2-dimensional graph of feature vectors using Resnet-18
 </p>
 
 <p align="center">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/scatter_plot_resnet50.png" width="500" title="Picture 17">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/scatter_plot_resnet50.png" width="500" title="Figure 10">
 <br>
- 2-dimensional graph of feature vectors using Resnet-50
+Figure 10. 2-dimensional graph of feature vectors using Resnet-50
+</p>
+
+Figures 11 and 12 provide visualizations of the cosine distance between the searched image and the search results. The 2-dimensional space represents the relative location of the searched image, and the search results are plotted in the same space. The distance between points reflects the similarity, where closer results indicate higher similarity to the searched image. The threshold used to determine the results is set at 0.94 for both models.
+
+There is a noticeable difference between the two models. In the case of Resnet-18, only one similar image is identified within the threshold, whereas the Resnet-50 based model can identify 10 similar images that meet the threshold.
+
+<p align="center">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/search_image_resnet18.png" width="600" title="Figure 11">
+<br>
+Figure 11. Results showing the relative distance to searched image (Resnet-18)
 </p>
 
 <p align="center">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/search_image_resnet18.png" width="600" title="Picture 18">
+  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/search_image_resnet50.png" width="600" title="Figure 12">
 <br>
-Results showing the relative distance to searched image (Resnet-18)
-</p>
-
-<p align="center">
-  <img src="https://github.com/vesalaia/Image_similarity/blob/main/images/search_image_resnet50.png" width="600" title="Example 19">
-<br>
-  Results showing the relative distance to searched image (Resnet-18)
+Figure 12. Results showing the relative distance to searched image (Resnet-18)
 </p>
 
 ## Conclusions
