@@ -1,5 +1,4 @@
-# Image similarity for the 18th-century illustrations 
-## Ari Vesalainen
+## Image similarity for the 18th-century illustrations by Ari Vesalainen
 
 ## Introduction
 
